@@ -1,0 +1,11 @@
+{
+  "built_at": "2026-05-30 23:44:24",
+  "dataset_path": "C:\\Users\\adity\\OneDrive\\GovernAI\\Simulator_Integration\\rag_pipeline\\data\\raw\\RAG_DataSet.json",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "device": "cpu",
+  "parent_chunks": 35,
+  "propositions": 387,
+  "faiss_vectors": 387,
+  "bm25_docs": 387,
+  "raptor_nodes": 5
+}

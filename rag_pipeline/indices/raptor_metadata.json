@@ -1,0 +1,53 @@
+{
+  "raptor_L1_twelve_thousand_rejections": {
+    "text": "[Scenario Summary: twelve_thousand_rejections]\n[Algorithmic Bias and Welfare Exclusion] The Black Box phenomenon occurs when the inputs and outputs of an AI system can be examined, but its internal code or decision-making processes are concealed. This opacity makes it difficult to trust AI decisions, hold the system accountable, or understand why a specific decision, such as denying a benefit, was made. Additionally, AI models often inherit biases from their training datasets; if mar\n\n[Human Oversight and Grievance Redressal in Entitlement Systems] AI systems can evolve in unpredictable ways, creating the risk of losing control. To mitigate these risks, appropriate mechanisms must be put in place to retain control, primarily by building 'human-in-the-loop' (HITL) mechanisms at critical decision points. This ensures that AI outputs can be reviewed, overridden, or supplemented by human judgment before they cause harm, aligning with the 'People\n\n[Incident Reporting and Systemic Learning from Welfare AI Failures] An AI incident is defined as an event or malfunction where an AI system directly or indirectly leads to specific harm, such as disruption of critical infrastructure or human rights violations. To understand and address these risks, the government recommends creating a centralized, national-level AI incidents database with federated local reporting. This database collects empirical data to understa",
+    "level": 1,
+    "child_ids": [
+      "chunk_0003",
+      "chunk_0004",
+      "chunk_0005"
+    ],
+    "scenario_id": "twelve_thousand_rejections"
+  },
+  "raptor_L1_reading_not_consistent": {
+    "text": "[Scenario Summary: reading_not_consistent]\n[Model Reliability: Generalisation, Underfitting, and Overfitting] Generalisation is the capacity of a Machine Learning model to accurately predict outcomes for new, unseen data, rather than just the data it was trained on. A failure in generalisation leads to inconsistent or unreliable readings. Underfitting occurs when an AI model is too simplistic to capture the complexities of its training data, resulting in poor predictive performance overall. Overfitting oc\n\n[Source Grounding and Retrieval-Augmented Generation for Policy Consistency] Inconsistent outputs usually indicate a system design issue involving retrieval quality, version drift, prompt design, or lack of grounding. A public-office workflow should require authoritative source retrieval, controlled templates, and explicit uncertainty handling for any rule-based interpretation. RAG (Retrieval-Augmented Generation) can improve reliability, but only if the repository is auth\n\n[Human Verification Workflows for AI-Assisted Policy Interpretation] All AI outputs used for policy interpretation must be reviewed by qualified officers before use. Source documents must be checked against the output before use. Officers must verify dates, versions, and amendments. A named owner must approve any external communication drafted with AI support. High-risk outputs should be signed off by a senior officer or legal reviewer. A feedback loop should captu",
+    "level": 1,
+    "child_ids": [
+      "chunk_0009",
+      "chunk_0010",
+      "chunk_0011"
+    ],
+    "scenario_id": "reading_not_consistent"
+  },
+  "raptor_L1_vendor_with_free_ai": {
+    "text": "[Scenario Summary: vendor_with_free_ai]\n[Procurement Compliance and Free AI Risks] Public procurement for AI solutions involves identifying use cases, formulating vendor selection criteria, and drafting Requests for Proposal (RFPs) outlining technical specifications, deliverables, data security, and IP rights. Procurement from third-party vendors offers faster deployment and lower initial resource burden but presents significant disadvantages including limited customization, hea\n\n[Data Ownership and Sovereignty in Free AI Adoption] When government departments use external AI tools, critical questions arise about who owns the prompts entered, outputs generated, logs retained, and model improvements derived from government usage. Free tiers often retain broad rights to use input data for model training or analytics unless explicitly restricted by contract. This creates sovereignty risks: the state may lose control over institu\n\n[Exit Strategy and Interoperability Planning] A critical but often overlooked aspect of AI procurement is planning for exit: how the department can discontinue use, migrate to alternatives, or bring capabilities in-house without service disruption or data loss. Free tiers rarely provide export tools for prompts, outputs, or usage analytics in standardized formats. Proprietary APIs, custom integrations, and vendor-specific workflows create swi",
+    "level": 1,
+    "child_ids": [
+      "chunk_0000",
+      "chunk_0001",
+      "chunk_0002"
+    ],
+    "scenario_id": "vendor_with_free_ai"
+  },
+  "raptor_L1_aadhaar_numbers_chatbot": {
+    "text": "[Scenario Summary: aadhaar_numbers_chatbot]\n[DPDP Act Compliance and Chatbot Data Handling] The Digital Personal Data Protection Act, 2023 (DPDP Act) governs the collection and processing of digital personal data in India. It introduces strict obligations for consent, purpose limitation, and data minimization, prohibiting the processing of personal data to train AI models without user consent. The Act requires safeguards against the misuse of sensitive data and empowers the Data Protecti\n\n[PII Protection and Chatbot Architecture Safeguards] A public chatbot often creates a hidden data lake because transcripts, tickets, analytics, and vendor logs all replicate the same sensitive content. The correct control is not only front-end warning text; it is end-to-end redaction, channel design, permissions segregation, and secondary-use prohibition unless authorized. Technical safeguards should include: (1) real-time PII detection and redactio\n\n[Incident Response and Breach Management for Chatbot Privacy Failures] When a chatbot leaks sensitive personal information, incident management should classify transcript exposure by sensitivity, spread, retention scope, and downstream reuse risk. The department should have a predefined incident response plan that includes: (1) immediate containment (e.g., suspending chatbot access, revoking vendor permissions); (2) assessment of affected data types and citizen impac",
+    "level": 1,
+    "child_ids": [
+      "chunk_0006",
+      "chunk_0007",
+      "chunk_0008"
+    ],
+    "scenario_id": "aadhaar_numbers_chatbot"
+  },
+  "raptor_L2_global": {
+    "text": "[Cross-Scenario Governance Summary]\nThe following governance principles recur across scenarios:\n[Scenario Summary: twelve_thousand_rejections]\n[Algorithmic Bias and Welfare Exclusion] The Black Box phenomenon occurs when the inputs and outputs of an AI system can be examined, but its internal code or decision-making processes are concealed. This opacity makes it difficult to trust AI decisions, hold the system accountable, or understand why a specific decision, such as denying a benefit, was made. Additionally, AI models often inherit biases from their training datasets; if mar\n\n[Human Ove\n\n[Scenario Summary: reading_not_consistent]\n[Model Reliability: Generalisation, Underfitting, and Overfitting] Generalisation is the capacity of a Machine Learning model to accurately predict outcomes for new, unseen data, rather than just the data it was trained on. A failure in generalisation leads to inconsistent or unreliable readings. Underfitting occurs when an AI model is too simplistic to capture the complexities of its training data, resulting in poor predictive performance overall. Over\n\n[Scenario Summary: vendor_with_free_ai]\n[Procurement Compliance and Free AI Risks] Public procurement for AI solutions involves identifying use cases, formulating vendor selection criteria, and drafting Requests for Proposal (RFPs) outlining technical specifications, deliverables, data security, and IP rights. Procurement from third-party vendors offers faster deployment and lower initial resource burden but presents significant disadvantages including limited customization, hea\n\n[Data Ownership\n\n[Scenario Summary: aadhaar_numbers_chatbot]\n[DPDP Act Compliance and Chatbot Data Handling] The Digital Personal Data Protection Act, 2023 (DPDP Act) governs the collection and processing of digital personal data in India. It introduces strict obligations for consent, purpose limitation, and data minimization, prohibiting the processing of personal data to train AI models without user consent. The Act requires safeguards against the misuse of sensitive data and empowers the Data Protecti\n\n[PII P",
+    "level": 2,
+    "child_ids": [
+      "raptor_L1_twelve_thousand_rejections",
+      "raptor_L1_reading_not_consistent",
+      "raptor_L1_vendor_with_free_ai",
+      "raptor_L1_aadhaar_numbers_chatbot"
+    ],
+    "scenario_id": "global"
+  }
+}
